@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight:400px;
+    font-style: normal;
+ }
+  *{
+    margin: 0px;
+    padding:0px;
+  }
+.school{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.display-flex{
+    display: flex;
+}
+.navbar{
+      margin-bottom: 30px;
+     margin-top: 30px;
+}
+.navbar, .school-nav-image{
+    justify-content:space-between;
+    align-items: center; 
+}
+.nav-menu{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-links{
+    text-decoration: none;
+}
+#home{
+    color: #FEA301;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+#about{
+
+}
+#facilities{
+
+}
+#admission{
+
+}
