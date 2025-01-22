@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-.quicksand-font {
+.quicksand-font{
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     font-weight:400px;
@@ -38,11 +38,79 @@
     font-weight: 700;
 }
 #about{
-
+     color:#01ACFD ;
+     font-size:1.25rem ;
+     font-weight:500 ;
 }
 #facilities{
-
+    color:#05D4DF ;
+    font-size:1.25rem ;
+    font-weight:500 ;
 }
 #admission{
+    color:#5D58EF;
+    font-size:1.25rem;
+    font-weight:500;
+}
+.span{
+    font-size: 2rem;
+    font-weight: 700;
+     margin-left: 10px;
+}
+#empower{
+    color:#FEA301;
+}
+#toward{
+    color:#01ACFD;
+}
+img{
+    width: 100%;
+}
+.btn-primary{
+    background-color:#FEA301;
+    color: white;
+    padding: 10px 55px;
+    border-radius:12px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: Quicksand;
+}
+.school-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.scholl-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.school-discription{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.btn{
+    background-color:#111111 ;
+    border-radius:12px;
+    border: none; 
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 10px 47px;
+    font-family: Quicksand;
+}
 
+
+
+@media screen and (max-width:576px) {
+    .school-details, .navbar{
+        flex-direction: column-reverse;
+    }
+    .school-more-details{
+        text-align: center;
+    }
+    
 }
