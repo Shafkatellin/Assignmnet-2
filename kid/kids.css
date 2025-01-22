@@ -10,6 +10,7 @@
     margin: 0px;
     padding:0px;
   }
+ 
 .school{
     max-width: 1100px;
     margin: 0 auto;
@@ -64,7 +65,7 @@
     color:#01ACFD;
 }
 img{
-    width: 100%;
+  width: 100%;
 }
 .btn-primary{
     background-color:#FEA301;
@@ -88,9 +89,12 @@ img{
 }
 .school-discription{
     font-size: 1.25rem;
-    font-weight: 400;
+    font-weight: 4000;
     margin-top: 24px;
     margin-bottom: 24px;
+}
+.school-more-details{
+    width: 640px;
 }
 .btn{
     background-color:#111111 ;
@@ -102,7 +106,93 @@ img{
     padding: 10px 47px;
     font-family: Quicksand;
 }
+/* another part  */
+.section{
+    background-image: url(../assets/bg.png);
+}
+.section-curriculam{
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    /* padding: 60px 0; */
 
+}
+.curriculam{
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    /* margin-top: 60px; */
+}
+.card-title{
+    border-radius: 19px;
+    text-align: center;
+    padding: 53px 40px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.card-container img{
+    width: 50%;
+}
+.card-heding{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 32px;
+}
+.card-discription{
+    font-size: 1rem;
+    font-size: medium;
+    font-family:Raleway;
+    color: #808080;
+    margin-top:33px;
+    margin-bottom:33px;
+}
+#card-click-1{
+    color:#64C8FF;
+    font-size:1rem;
+    font-weight: 700;
+}
+#card-click-2{
+   color: #F0AA00;
+   font-size:1rem;
+   font-weight: 700;
+}
+#card-click-3{
+    color: #8700FF;
+    font-size:1rem;
+    font-weight: 700;
+}
+.card-1-color{
+    background-image:linear-gradient(#DEF5FF, #FFFFFF);
+}
+.card-2-color{
+    background-image: linear-gradient(#FFF4DC, #FFFFFF);
+}
+.card-3-color{
+    background-image: linear-gradient(#F2E8FF, white);
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.btn-icon{
+    background:#FEA301;
+    color: white;
+    border:none;
+    padding: 18px 22px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight:700;
+    font-family:Font Awesome 5 Free;
+    
+}
 
 
 @media screen and (max-width:576px) {
@@ -112,5 +202,45 @@ img{
     .school-more-details{
         text-align: center;
     }
+    .school-more-details{
+        width: 100%;
+    }
+    .school-details{
+     margin: 0 16px;
+    }  
+    .hero-kids-img{
+        padding: 20px 10px;
     
+    }
+    .span, .school-nav-item, .btn-primary{
+        display: none;
+    }
+    .navbar{
+         display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 0px;
+        border: 1px solid #FEA301;
+        padding-top: 12px;
+        padding-bottom:12px ;
+    }
+    .school-img-logo{
+       margin-left: 16px;
+        border: 1px solid #FEA301;
+    }
+    .card-container{
+        grid-template-columns: repeat(1, 1fr);
+        padding-top: 30px;
+    }
+    .curriculam{
+       font-size: 2rem;
+    }
+    .section{
+        padding: 0px 16px;
+    }
+    .btn-container{
+        display: none;
+    }
+
+   
 }
