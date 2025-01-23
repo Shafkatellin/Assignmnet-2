@@ -106,8 +106,12 @@ img{
     padding: 10px 47px;
     font-family: Quicksand;
 }
+
 /* another part  */
-.section{
+/* .section{
+    background-image: url(../assets/bg.png);
+} */
+main{
     background-image: url(../assets/bg.png);
 }
 .section-curriculam{
@@ -169,12 +173,15 @@ img{
 }
 .card-1-color{
     background-image:linear-gradient(#DEF5FF, #FFFFFF);
+    border: 1px solid #DEF5FF;
 }
 .card-2-color{
     background-image: linear-gradient(#FFF4DC, #FFFFFF);
+    border: 1px solid #FFF4DC;
 }
 .card-3-color{
     background-image: linear-gradient(#F2E8FF, white);
+    border: 1px solid #F2E8FF;
 }
 .btn-container{
     display: flex;
@@ -190,9 +197,74 @@ img{
     border-radius: 50%;
     font-size: 1.5rem;
     font-weight:700;
-    font-family:Font Awesome 5 Free;
+    font-family:Font Awesome 5 Free;   
+}
+/* another part  */
+
+.stories-curriculam{
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+} 
+.stories-header{
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.stories-card{
+    display: flex;
+}
+.stories-card{
+      margin-top: 80px;
+      margin-bottom: 80px;
+    gap: 19px;
+}
+.stories-card-container{
+    border-radius: 16px;
+    background: white;
+}
+.stories-card-container-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+   
+}
+.stories-extra-card{
+    border-radius: 16px;
+    background: white;
+}
+.stories-img{
+    border-top-right-radius:16px;
+    border-top-left-radius:16px;
+}
+.stories-card-header{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 58px 38px
     
 }
+.stories-card-discription{
+    font-size: 1rem;
+    font-size: medium;
+    font-family:Raleway;
+    color: #808080;
+    margin-left:38px ;
+    margin-right:68px ;
+    margin-bottom: 32px;
+    width: 432px;
+}
+.stories-extra-card> h3{
+    margin: 30px 38px;
+    width: 214px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.bg-color{
+    background-image: linear-gradient(white, #FEA301);
+}
+
+
 
 
 @media screen and (max-width:576px) {
