@@ -11,7 +11,7 @@
     padding:0px;
   }
  
-.school{
+.school, .footer{
     max-width: 1100px;
     margin: 0 auto;
 }
@@ -199,13 +199,15 @@ main{
     font-weight:700;
     font-family:Font Awesome 5 Free;   
 }
+.btn-icon:hover{
+    background-color: #01ACFD;
+}
 /* another part  */
 
 .stories-curriculam{
     max-width: 1100px;
     margin: 0 auto;
     margin-top: 60px;
-    margin-bottom: 60px;
 } 
 .stories-header{
     text-align: center;
@@ -256,15 +258,103 @@ main{
 }
 .stories-extra-card> h3{
     margin: 30px 38px;
-    width: 214px;
+    /* max-width: ;width: 214px; */
     font-size: 1rem;
     font-weight: 700;
 }
 .bg-color{
     background-image: linear-gradient(white, #FEA301);
 }
+.btn-primary-1{
+    background-color:#111111 ;
+    border-radius:12px;
+    border: none; 
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 10px 47px;
+    font-family: Quicksand;
+    margin-bottom: 60px;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
 
-
+/* another part  */
+.background{
+    background-color:#01ACFD;
+}
+.footer{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 123px;
+    padding-bottom: 174px;
+    padding-left: 140px;
+    padding-right: 228px;
+}
+.about{
+    margin-left: 172px;
+    margin-right: 142px;
+}
+.about-header{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.about-items{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 32px; 
+    width: 156px;
+}
+.about-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 32px;
+    max-width: 192px;
+}
+.icon-container{
+    display: flex;
+}
+.icon-details{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+}
+.about>h3{
+    color: white;
+}
+.icon-header{
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.icon-description{
+    color: white;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-top: 30px;
+    max-width: 400px;
+}
+.about-links{
+    text-decoration: none;
+    color: white;
+}
+.about-list{
+    list-style: none;
+    color: white;
+}
+.touch-header{
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
 
 
 @media screen and (max-width:576px) {
@@ -303,6 +393,7 @@ main{
     .card-container{
         grid-template-columns: repeat(1, 1fr);
         padding-top: 30px;
+        padding-bottom: 20px;
     }
     .curriculam{
        font-size: 2rem;
@@ -312,6 +403,28 @@ main{
     }
     .btn-container{
         display: none;
+    }
+    .stories-card-container{
+        display:none;
+    }
+    /* .stories-card-container-2{
+        width: 100%;
+    } */
+    .stories-card{
+        width: 20%;
+    }
+    .footer{
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 16px;
+        padding-top: 65px;
+    }
+    .icon-description{
+        width: 350px;
+    }
+    .about{
+        margin-left: 16px;
+        margin-top: 32px;
+        margin-bottom: 32px;
     }
 
    
